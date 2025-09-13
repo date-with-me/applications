@@ -1,0 +1,22 @@
+name: Page Application
+description: Apply for a page under the date-with.me domain
+title: "Page Application: [Page Name]"
+labels: ["page-application"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in applying for a page under the date-with.me domain!
+        
+        Please fill out the form below with your page details.
+
+  - type: input
+    id: page-name
+    attributes:
+      label: Page Name
+      description: "Enter the desired page name (e.g., 'john', 'zoe', ...)"
+      placeholder: "your-page-name"
+    validations:
+      required: true
