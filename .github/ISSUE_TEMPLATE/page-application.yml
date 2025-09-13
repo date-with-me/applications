@@ -1,6 +1,6 @@
 name: Page Application
 description: Apply for a page under the date-with.me domain
-title: "Page Application: {{ page-name }}"
+title: "Page Application: ${{ values.page-name }}"
 labels: ["page-application"]
 assignees: []
 
